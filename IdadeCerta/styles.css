@@ -1,0 +1,136 @@
+.Input{
+    display: flex;
+    width: 450px;
+    height: 194px;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 0px;
+    gap: 23px;
+    border: solid 1px black;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: absolute;
+    top: 47%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-top: 20px;
+    gap: 60px;
+}
+
+#titulo{
+    font-size: 50px;
+    width: 337px;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#assinatura{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'MontSerrat';
+}
+
+#resultado{
+    display: flex;
+}
+
+#SuaIdade{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#idade{
+    font-family: 'Oswald:500', sans-serif;
+    padding: 10px;
+    font-size: 7.5em;
+}
+
+#decimal{
+    font-family: 'Oswald:200', sans-serif;
+    margin-left: 0px;
+    margin-top: 27px;
+    font-size: 3.0em;
+}
+
+#Botao{
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(230, 230, 230);
+    height: auto;
+    font-family: 'MontSerrat';
+    font-size: 1.0em;
+}
+
+#Botao:hover{
+    cursor: pointer;
+}
+
+#voltar{
+    position: absolute;
+    top: 93%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    border: 0px;
+    background-color: #FFF;
+    font-size: 1.5em;
+}
+
+#voltar:hover{
+    cursor: pointer;
+}
+
+#Data{
+    background-color: rgb(230, 230, 230);
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+#Data:hover{
+    cursor: pointer;
+}
+
+#Horario{
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    background-color: rgb(230, 230, 230);
+}
+
+#Horario:hover{
+    cursor: pointer;
+}

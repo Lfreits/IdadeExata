@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Idade Precisa</h1>
+    <div class="Input">
+        <h1 class="subtitle">Informe sua data de nascimento</h1>
+        <div id="Caixas">
+            <input id="Data" type="date">
+            <input id="Horario" type="time">
+        </div>
+        <div>
+            <button id="Botao" onclick="main()"><h2>Obter Data</h2></button>
+        </div> 
+    </div>
+    <h1 class="subtitle" style="display: none;" id="SuaIdade">Sua idade </h1>
+    <div class="container" style="display: none;">
+        <div id="resultado">
+            <h1 id="idade">?</h1>
+            <h3 id="decimal"></h3>
+        </div>
+    </div>
+    <button id="voltar" style="display: none;" onclick="Voltar()">Voltar</button>
+    <h3 id="assinatura">Feito por: Lucas Freitas</h3>
+    <script src="script.js"></script>
+</body>
+</html>
